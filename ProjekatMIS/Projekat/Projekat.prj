@@ -1,0 +1,3458 @@
+format 224
+"Projekat"
+  revision 16
+  modified_by 8 "User"
+
+
+  
+  // class settings
+  default_attribute_visibility private default_relation_visibility private default_operation_visibility public
+  
+  classdiagramsettings draw_all_relations yes hide_attributes no hide_operations no hide_getset_operations no hide_ports no show_members_full_definition yes show_members_visibility yes show_members_stereotype yes show_members_context no show_members_multiplicity yes show_members_initialization no show_attribute_modifiers no member_max_width 127 show_parameter_dir yes show_parameter_name yes package_name_in_tab no class_drawing_mode natural drawing_language uml show_context_mode no auto_label_position yes show_relation_modifiers no show_relation_visibility no show_infonote no shadow yes gradient none show_stereotype_properties no end
+  
+  classcompositediagramsettings auto_label_position yes draw_all_relations yes shadow yes gradient none end
+  
+  usecasediagramsettings package_name_in_tab no show_context_mode no auto_label_position yes draw_all_relations yes class_drawing_mode actor shadow yes gradient none show_stereotype_properties no end
+  
+  sequencediagramsettings show_full_operations_definition no show_class_of_operation no write_horizontally yes instances_drawing_mode class drawing_language uml draw_all_relations yes shadow yes gradient none show_stereotype_properties no show_class_context_mode no show_msg_context_mode no end
+  
+  collaborationdiagramsettings show_full_operations_definition no show_class_of_operation no show_hierarchical_rank no write_horizontally yes instances_drawing_mode natural drawing_language uml package_name_in_tab no show_class_pack_context_mode no show_msg_context_mode no draw_all_relations yes shadow yes gradient none show_stereotype_properties no end
+  
+  objectdiagramsettings write_horizontally yes package_name_in_tab no show_class_pack_context_mode no auto_label_position yes draw_all_relations yes shadow yes gradient none show_stereotype_properties no end
+  
+  objectcompositediagramsettings auto_label_position yes draw_all_relations yes shadow yes gradient none end
+  
+  componentdiagramsettings package_name_in_tab no show_context_mode no auto_label_position yes draw_all_relations yes shadow yes gradient none
+   draw_component_as_icon no show_component_req_prov no show_component_rea no show_stereotype_properties no end
+  
+  deploymentdiagramsettings package_name_in_tab no show_context_mode no write_horizontally yes auto_label_position yes draw_all_relations yes shadow yes gradient none
+   draw_component_as_icon no show_component_req_prov no show_component_rea no show_stereotype_properties no end
+  
+  statediagramsettings package_name_in_tab no show_context_mode no auto_label_position yes write_label_horizontally yes show_trans_definition no draw_all_relations yes shadow yes gradient none
+   show_activities yes region_horizontally yes drawing_language uml show_stereotype_properties no end
+  
+  activitydiagramsettings package_name_in_tab no show_context_mode no show_opaque_action_definition no auto_label_position yes write_label_horizontally no draw_all_relations yes shadow yes gradient none
+   show_infonote yes drawing_language uml show_stereotype_properties no end
+  
+  class_color yellow duration_color transparent continuation_color gray note_color blue fragment_color transparent subject_color transparent usecase_color yellow package_color transparent component_color green artifact_color green deploymentnode_color gray state_color yellow stateaction_color transparent activity_color transparent activityregion_color transparent activitypartition_color transparent activityaction_color transparent parameterpin_color white generalization_color black 
+  dpi 96
+  font_size 8
+  diagram_format A4
+
+  image_root_dir ""
+
+
+  mark_for_import
+  
+  usecaseview 128131 "UseCaseDijagram"
+    
+    usecasediagramsettings end
+    
+    sequencediagramsettings end
+    
+    collaborationdiagramsettings end
+    
+    classdiagramsettings member_max_width 0 end
+    
+    classcompositediagramsettings end
+    
+    objectdiagramsettings end
+    
+    objectcompositediagramsettings end
+    
+    statediagramsettings
+     end
+    
+    activitydiagramsettings
+     end
+    usecasediagram 128131 "dijagram"
+      usecasediagramsettings draw_all_relations no end
+      size A2
+    end
+
+    class 128131 "Menadzer"
+      visibility package stereotype "actor"
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      classrelation 150659 // <generalisation>
+	relation 149635 ---|>
+	  a public
+	    java "${type}"
+	    classrelation_ref 150659 // <generalisation>
+	  b parent class_ref 128387 // Zaposleni
+      end
+    end
+
+    class 128259 "Vlasnik"
+      visibility package stereotype "actor"
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      classrelation 128131 // <generalisation>
+	relation 128131 ---|>
+	  a public
+	    classrelation_ref 128131 // <generalisation>
+	  b parent class_ref 128131 // Menadzer
+      end
+    end
+
+    usecase 128131 "Unos novog menadzera"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+    end
+
+    usecase 128259 "Pregled podataka o postojecem menadzeru"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+    end
+
+    usecase 128387 "Prikaz svih narudzbina"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+    end
+
+    usecase 128515 "Pregled menija"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+    end
+
+    usecase 128643 "Unapredjenje menija"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+      simplerelation 128131
+	-_->
+	  stereotype "extend"
+	  on usecase_ref 128515 // Pregled menija
+      end
+    end
+
+    usecase 128771 "Odgovaranje na zalbe posetilaca"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+    end
+
+    usecase 128899 "Pregled svih rezervacija"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+    end
+
+    usecase 129027 "Kreiranje nove rezervacije"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+      simplerelation 128259
+	-_->
+	  stereotype "extend"
+	  on usecase_ref 128899 // Pregled svih rezervacija
+      end
+    end
+
+    usecase 129283 "Pregled svih zaposlenih"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+    end
+
+    usecase 129411 "Prikaz odredjenog zaposlenog clana"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+      simplerelation 128387
+	-_->
+	  stereotype "extend"
+	  on usecase_ref 129283 // Pregled svih zaposlenih
+      end
+    end
+
+    usecase 129539 "Izrada nedeljnog rasporeda"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+      simplerelation 128643
+	-_->
+	  stereotype "include"
+	  on usecase_ref 129667 // Rasporedjivanje zaposlenih po smenama
+      end
+
+      simplerelation 135939
+	-_->
+	  stereotype "extend"
+	  on usecase_ref 129283 // Pregled svih zaposlenih
+      end
+    end
+
+    usecase 129667 "Rasporedjivanje zaposlenih po smenama"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+      simplerelation 128515
+	-_->
+	  on usecase_ref 129539 // Izrada nedeljnog rasporeda
+      end
+    end
+
+    usecase 129795 "Obradjivanje termina za odmor"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+      simplerelation 136067
+	-_->
+	  stereotype "extend"
+	  on usecase_ref 129411 // Prikaz odredjenog zaposlenog clana
+      end
+    end
+
+    usecase 129923 "Odobravanje slobodnih dana"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+    end
+
+    usecase 130051 "Organizovanje popusta"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+      simplerelation 128771
+	-_->
+	  stereotype "extend"
+	  on usecase_ref 128643 // Unapredjenje menija
+      end
+
+      simplerelation 128899
+	-_->
+	  stereotype "extend"
+	  on usecase_ref 128643 // Unapredjenje menija
+      end
+    end
+
+    usecase 130179 "Dodavanje nove stavke"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+      simplerelation 129027
+	-_->
+	  stereotype "extend"
+	  on usecase_ref 128643 // Unapredjenje menija
+      end
+    end
+
+    usecase 130307 "Pregled finansijskog izvestaja "
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+    end
+
+    class 128387 "Zaposleni"
+      visibility package stereotype "actor"
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+    end
+
+    class 128515 "Posetilac"
+      visibility package stereotype "actor"
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+    end
+
+    usecase 130435 "Biranje termina za godisnji odmor"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+    end
+
+    usecase 130563 "Pregled rasporeda smena"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+    end
+
+    class 128643 "Konobar"
+      visibility package stereotype "actor"
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      classrelation 128259 // <generalisation>
+	relation 128259 ---|>
+	  a public
+	    classrelation_ref 128259 // <generalisation>
+	  b parent class_ref 128387 // Zaposleni
+      end
+    end
+
+    usecase 130691 "Stampanje racuna"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+    end
+
+    class 128771 "KuhinjskoOsoblje"
+      visibility package stereotype "actor"
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      classrelation 128387 // <generalisation>
+	relation 128387 ---|>
+	  a public
+	    classrelation_ref 128387 // <generalisation>
+	  b parent class_ref 128387 // Zaposleni
+      end
+    end
+
+    usecase 130819 "Pregled namirnica"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+    end
+
+    usecase 130947 "Prihvatanje narudzbine"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+      simplerelation 128264
+	-_->
+	  stereotype "include"
+	  on usecase_ref 128136 // Unos vremenskog intervala potrebnog za pripremu
+      end
+    end
+
+    usecase 131075 "Dodavanje potrebnih namirnica"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+      simplerelation 129155
+	-_->
+	  stereotype "extend"
+	  on usecase_ref 130819 // Pregled namirnica
+      end
+    end
+
+    usecase 131203 "Kreiranje nove narudzbine"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+      simplerelation 128392
+	-_->
+	  stereotype "include"
+	  on usecase_ref 128264 // Odabir stavke iz menija
+      end
+    end
+
+    usecase 131331 "Ostavljanje komentara i zalbi"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+    end
+
+    usecase 131459 "Kreiranje narudzbine online"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+      simplerelation 129283
+	-_->
+	  stereotype "include"
+	  on usecase_ref 131587 // Prikaz menija
+      end
+
+      simplerelation 136195
+	-_->
+	  stereotype "include"
+	  on usecase_ref 138371 // Unos licnih podataka
+      end
+
+      simplerelation 142851
+	-_->
+	  on usecase_ref 145283 // Odabir nacina placanja
+      end
+
+      simplerelation 142979
+	-_->
+	  stereotype "include"
+	  on usecase_ref 145283 // Odabir nacina placanja
+      end
+    end
+
+    usecase 131587 "Prikaz menija"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+      simplerelation 128136
+	-_->
+	  stereotype "include"
+	  on usecase_ref 131715 // Izbor stavki iz menija
+      end
+    end
+
+    usecase 131715 "Izbor stavki iz menija"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+      simplerelation 129411
+	-_->
+	  stereotype "extend"
+	  on usecase_ref 131587 // Prikaz menija
+      end
+    end
+
+    usecase 138243 "Azuriranje baze zaposlenih"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+    end
+
+    usecase 138371 "Unos licnih podataka"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+    end
+
+    class 135299 "Dostavljac"
+      visibility package stereotype "actor"
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      classrelation 134915 // <generalisation>
+	relation 134915 ---|>
+	  a public
+	    classrelation_ref 134915 // <generalisation>
+	  b parent class_ref 128387 // Zaposleni
+      end
+    end
+
+    usecase 138499 "Kreiranje naloga"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+    end
+
+    usecase 138627 "Prikaz narudzbina za dostavu"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+    end
+
+    usecase 138755 "Azuriranje vremena dostave"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+      simplerelation 136323
+	-_->
+	  stereotype "extend"
+	  on usecase_ref 138627 // Prikaz narudzbina za dostavu
+      end
+    end
+
+    usecase 145283 "Odabir nacina placanja"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+    end
+
+    usecase 145539 "Provera dostupnosti jela"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+    end
+
+    usecase 145667 "Azuriranje podataka o menadzeru"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+      simplerelation 143107
+	-_->
+	  stereotype "extend"
+	  on usecase_ref 128259 // Pregled podataka o postojecem menadzeru
+      end
+    end
+
+    usecase 128008 "Unos novog zaposlenog"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+      simplerelation 128008
+	-_->
+	  stereotype "extend"
+	  on usecase_ref 138243 // Azuriranje baze zaposlenih
+      end
+    end
+
+    usecase 128136 "Unos vremenskog intervala potrebnog za pripremu"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+    end
+
+    usecase 128264 "Odabir stavke iz menija"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+    end
+  end
+
+  usecaseview 134659 "DijagramAktivnosti"
+    
+    usecasediagramsettings end
+    
+    sequencediagramsettings end
+    
+    collaborationdiagramsettings end
+    
+    classdiagramsettings member_max_width 0 end
+    
+    classcompositediagramsettings end
+    
+    objectdiagramsettings end
+    
+    objectcompositediagramsettings end
+    
+    statediagramsettings
+     end
+    
+    activitydiagramsettings
+     end
+    activity 128008 "Dijagram1"
+      activitydiagram 141192 "dijagram1"
+	activitydiagramsettings
+	 end
+	size A2
+      end
+
+      activitynode 128008 initial_node ""
+      end
+
+      activitynode 128136 initial_node ""
+	flow 128008 "<flow>"
+	  on activityaction_ref 128008 // activity action Prikaz svih stolova u restoranu
+	end
+      end
+
+      activityaction 128008 "Prikaz svih stolova u restoranu"
+	opaque_action
+	flow 128136 "<flow>"
+	  on activitynode_ref 128264 // merge
+	end
+      end
+
+      activitynode 128264 merge ""
+	flow 128264 "<flow>"
+	  on activityaction_ref 128136 // activity action Unos datuma i vremena za zeljenu rezervaciju
+	end
+      end
+
+      activityaction 128136 "Unos datuma i vremena za zeljenu rezervaciju"
+	opaque_action
+	flow 128392 "<flow>"
+	  on activitynode_ref 128392 // decision
+	end
+      end
+
+      activitynode 128392 decision ""
+	flow 129032 "<flow>"
+	  stereotype "Postoje slobodni stolovi"
+	  on activityaction_ref 128264 // activity action Odabir stola za zeljenu rezervaciju
+	end
+
+	flow 129672 "<flow>"
+	  stereotype "Ne postoje slobodni stolovi"
+	  on activityaction_ref 128904 // activity action Slanje obavestenja korisniku o nemogucnosti rezervacije
+	end
+      end
+
+      activityaction 128264 "Odabir stola za zeljenu rezervaciju"
+	opaque_action
+	flow 128520 "<flow>"
+	  on activityaction_ref 128392 // activity action Unos podataka potrebnih za rezervaciju
+	end
+      end
+
+      activityaction 128392 "Unos podataka potrebnih za rezervaciju"
+	opaque_action
+	flow 128648 "<flow>"
+	  on activityaction_ref 128520 // activity action Promena statusa rezervacije
+	end
+      end
+
+      activityaction 128520 "Promena statusa rezervacije"
+	opaque_action
+	flow 128776 "<flow>"
+	  on activityaction_ref 128648 // activity action Cuvanje rezervacije u bazu
+	end
+      end
+
+      activityaction 128648 "Cuvanje rezervacije u bazu"
+	opaque_action
+	flow 128904 "<flow>"
+	  on activityaction_ref 128776 // activity action Slanje obavestenja korisniku o uspesnoj rezervaciji
+	end
+      end
+
+      activityaction 128776 "Slanje obavestenja korisniku o uspesnoj rezervaciji"
+	opaque_action
+	flow 129288 "<flow>"
+	  on activitynode_ref 128520 // decision
+	end
+      end
+
+      activitynode 128520 decision ""
+	flow 129160 "<flow>"
+	  stereotype "Postoji jos zahteva za rezervaciju"
+	  on activitynode_ref 128264 // merge
+	end
+
+	flow 129416 "<flow>"
+	  stereotype "Ne postoji jos zahteva"
+	  on activitynode_ref 128648 // merge
+	end
+      end
+
+      activitynode 128648 merge ""
+	flow 129544 "<flow>"
+	  on activitynode_ref 128776 // activity_final
+	end
+      end
+
+      activitynode 128776 activity_final ""
+      end
+
+      activityaction 128904 "Slanje obavestenja korisniku o nemogucnosti rezervacije"
+	opaque_action
+	flow 129800 "<flow>"
+	  on activitynode_ref 128904 // decision
+	end
+      end
+
+      activitynode 128904 decision ""
+	flow 129928 "<flow>"
+	  stereotype "Posetilac ne zeli rezervaciju za neko drugo vreme"
+	  on activitynode_ref 128648 // merge
+	end
+
+	flow 130056 "<flow>"
+	  stereotype "Posetilac zeli rezervaciju za neko drugo vreme"
+	  on activitynode_ref 128264 // merge
+	end
+      end
+    end
+
+    activity 128136 "Dijagram2"
+      activitydiagram 141320 "dijagram2"
+	activitydiagramsettings
+	 end
+	size A2
+      end
+
+      activitynode 129032 initial_node ""
+	flow 130184 "<flow>"
+	  on activitynode_ref 129160 // merge
+	end
+      end
+
+      activitynode 129160 merge ""
+	flow 136712 "<flow>"
+	  on activityaction_ref 135432 // activity action Prikaz menija
+	end
+      end
+
+      activityaction 135432 "Prikaz menija"
+	opaque_action
+	flow 136840 "<flow>"
+	  on activitynode_ref 135688 // decision
+	end
+      end
+
+      activitynode 135688 decision ""
+	flow 136968 "<flow>"
+	  stereotype "Posetilac zeli da nastavi narucivanje"
+	  on activityaction_ref 135560 // activity action Izbor jela iz menija
+	end
+
+	flow 139400 "<flow>"
+	  stereotype "Posetilac ne zeli da nastavi narucivanje"
+	  on activitynode_ref 136456 // merge
+	end
+      end
+
+      activityaction 135560 "Izbor jela iz menija"
+	opaque_action
+	flow 137096 "<flow>"
+	  on activitynode_ref 135816 // decision
+	end
+      end
+
+      activitynode 135816 decision ""
+	flow 137224 "<flow>"
+	  stereotype "Izabrano jelo je dostupno"
+	  on activitynode_ref 135944 // decision
+	end
+
+	flow 138248 "<flow>"
+	  stereotype "Izabrano jelo nije dostupno"
+	  on activitynode_ref 136200 // merge
+	end
+      end
+
+      activitynode 135944 decision ""
+	flow 137352 "<flow>"
+	  stereotype "Posetilac zeli da izmeni sastojke"
+	  on activityaction_ref 135688 // activity action Izmena sastojaka
+	end
+
+	flow 137608 "<flow>"
+	  stereotype "Posetilac ne zeli da izmeni sastojke"
+	  on activitynode_ref 136072 // merge
+	end
+      end
+
+      activityaction 135688 "Izmena sastojaka"
+	opaque_action
+	flow 137480 "<flow>"
+	  on activitynode_ref 136072 // merge
+	end
+      end
+
+      activitynode 136072 merge ""
+	flow 137736 "<flow>"
+	  on activityaction_ref 135816 // activity action Popunjavanje podataka
+	end
+      end
+
+      activityaction 135816 "Popunjavanje podataka"
+	opaque_action
+	flow 137864 "<flow>"
+	  on activityaction_ref 135944 // activity action Odabir nacina placanja
+	end
+      end
+
+      activityaction 135944 "Odabir nacina placanja"
+	opaque_action
+	flow 137992 "<flow>"
+	  on activityaction_ref 136072 // activity action Potvrda narudzbine
+	end
+      end
+
+      activityaction 136072 "Potvrda narudzbine"
+	opaque_action
+	flow 139656 "<flow>"
+	  on activityaction_ref 136584 // activity action Primanje narudzbine
+	end
+      end
+
+      activityaction 136200 "Pregled informacija o dostavi"
+	opaque_action
+	flow 138120 "<flow>"
+	  on activitynode_ref 136200 // merge
+	end
+      end
+
+      activitynode 136200 merge ""
+	flow 138376 "<flow>"
+	  on activitynode_ref 136328 // decision
+	end
+      end
+
+      activitynode 136328 decision ""
+	flow 138504 "<flow>"
+	  stereotype "Posetilac zeli da naruci jos jela"
+	  on activitynode_ref 129160 // merge
+	end
+
+	flow 138632 "<flow>"
+	  stereotype "Posetilac ne zeli da naruci jos jela"
+	  on activitynode_ref 136456 // merge
+	end
+      end
+
+      activitynode 136456 merge ""
+	flow 138760 "<flow>"
+	  on activityaction_ref 136328 // activity action Provera da li korisnik ima zalbi
+	end
+      end
+
+      activityaction 136328 "Provera da li korisnik ima zalbi"
+	opaque_action
+	flow 139016 "<flow>"
+	  on activitynode_ref 136584 // decision
+	end
+      end
+
+      activitynode 136584 decision ""
+	flow 139144 "<flow>"
+	  stereotype "Posetilac ima zalbi"
+	  on activityaction_ref 136456 // activity action Slanje zalbe e-mailom
+	end
+
+	flow 139272 "<flow>"
+	  stereotype "Posetilac nema zalbi"
+	  on activitynode_ref 136840 // activity_final
+	end
+      end
+
+      activityaction 136456 "Slanje zalbe e-mailom"
+	opaque_action
+	flow 138888 "<flow>"
+	  on activitynode_ref 136712 // activity_final
+	end
+      end
+
+      activitynode 136712 activity_final ""
+      end
+
+      activitynode 136840 activity_final ""
+      end
+
+      activityaction 136584 "Primanje narudzbine"
+	opaque_action
+	flow 139528 "<flow>"
+	  on activityaction_ref 136712 // activity action Slanje informacija o dostavi
+	end
+      end
+
+      activityaction 136712 "Slanje informacija o dostavi"
+	opaque_action
+	flow 139784 "<flow>"
+	  on activityaction_ref 136200 // activity action Pregled informacija o dostavi
+	end
+      end
+    end
+  end
+
+  classview 134531 "DijagramKlasa"
+    
+    classdiagramsettings show_members_full_definition yes show_members_visibility yes show_members_stereotype yes member_max_width 0 class_drawing_mode class end
+    
+    classcompositediagramsettings end
+    
+    collaborationdiagramsettings end
+    
+    objectdiagramsettings end
+    
+    objectcompositediagramsettings end
+    
+    sequencediagramsettings end
+    
+    statediagramsettings
+     end
+    
+    
+    activitydiagramsettings
+     end
+    classdiagram 141187 "dijagramm"
+      classdiagramsettings draw_all_relations no member_max_width 0 end
+      size A2
+    end
+
+    class 141827 "Vlasnik"
+      visibility package stereotype "entity"
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      attribute 134531 "ime"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 134659 "prezime"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 134787 "jmbg"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 134915 "telefon"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      classrelation 144131 // <association>
+	relation_ref 143107 // <association>
+      end
+    end
+
+    class 141955 "Menadzer"
+      visibility package stereotype "entity"
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      classrelation 141827 // <generalisation>
+	relation 141827 ---|>
+	  a public
+	    java "${type}"
+	    classrelation_ref 141827 // <generalisation>
+	  b parent class_ref 142083 // Zaposleni
+      end
+
+      classrelation 142979 // <association>
+	relation 142467 ----
+	  a role_name "" multiplicity "*" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${stereotype}<${type}> ${name}${value};
+"
+	    classrelation_ref 142979 // <association>
+	  b role_name "" multiplicity "0..1" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${stereotype}<${type}> ${name}${value};
+"
+	    classrelation_ref 143107 // <association>
+      end
+
+      classrelation 158088 // <association>
+	relation 157064 ----
+	  a role_name "" multiplicity "1..*" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${stereotype}<${type}> ${name}${value};
+"
+	    classrelation_ref 158088 // <association>
+	  b role_name "" multiplicity "1" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 158216 // <association>
+      end
+    end
+
+    class 142083 "Zaposleni"
+      visibility package stereotype "entity"
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      attribute 135427 "id"
+	private explicit_type "int"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 135555 "tip"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 136963 "plata"
+	private explicit_type "double"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      classrelation 143747 // <association>
+	relation 142979 ----
+	  a role_name "" multiplicity "1" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 143747 // <association>
+	  b role_name "" multiplicity "1..*" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${stereotype}<${type}> ${name}${value};
+"
+	    classrelation_ref 143875 // <association>
+      end
+
+      attribute 128008 "ime"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 128136 "prezime"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 128264 "jmbg"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 128392 "brTelefona"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 135432 "email"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      classrelation 158600 // <association>
+	relation 157320 ----
+	  a role_name "" multiplicity "1..*" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${stereotype}<${type}> ${name}${value};
+"
+	    classrelation_ref 158600 // <association>
+	  b role_name "" multiplicity "1" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 158728 // <association>
+      end
+    end
+
+    class 142211 "Konobar"
+      visibility package stereotype "entity"
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      classrelation 141443 // <generalisation>
+	relation 141443 ---|>
+	  a public
+	    java "${type}"
+	    classrelation_ref 141443 // <generalisation>
+	  b parent class_ref 142083 // Zaposleni
+      end
+    end
+
+    class 142339 "KuhinjskoOsoblje"
+      visibility package stereotype "entity"
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      classrelation 141571 // <generalisation>
+	relation 141571 ---|>
+	  a public
+	    java "${type}"
+	    classrelation_ref 141571 // <generalisation>
+	  b parent class_ref 142083 // Zaposleni
+      end
+    end
+
+    class 142467 "Dostavljac"
+      visibility package stereotype "entity"
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      classrelation 141699 // <generalisation>
+	relation 141699 ---|>
+	  a public
+	    java "${type}"
+	    classrelation_ref 141699 // <generalisation>
+	  b parent class_ref 142083 // Zaposleni
+      end
+
+      classrelation 142723 // <association>
+	relation 142339 ----
+	  a role_name "" multiplicity "1..*" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${stereotype}<${type}> ${name}${value};
+"
+	    classrelation_ref 142723 // <association>
+	  b role_name "" multiplicity "1" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 142851 // <association>
+      end
+    end
+
+    class 142595 "Meni"
+      visibility package stereotype "entity"
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      classrelation 142339 // <association>
+	relation_ref 142083 // <association>
+      end
+
+      attribute 137987 "opis"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+    end
+
+    class 142723 "Narudzbina"
+      visibility package stereotype "entity"
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      attribute 138243 "id"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      classrelation 142467 // <association>
+	relation 142211 ----
+	  a role_name "" multiplicity "1..*" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${stereotype}<${type}> ${name}${value};
+"
+	    classrelation_ref 142467 // <association>
+	  b role_name "" multiplicity "*" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${stereotype}<${type}> ${name}${value};
+"
+	    classrelation_ref 142595 // <association>
+	  association_type class_ref 142851 // Racun
+      end
+
+      classrelation 142851 // <association>
+	relation_ref 142339 // <association>
+      end
+
+      classrelation 143107 // <association>
+	relation_ref 142467 // <association>
+      end
+
+      classrelation 143619 // <association>
+	relation_ref 142851 // <association>
+      end
+
+      classrelation 150787 // <association>
+	relation 149763 ----
+	  a role_name "" multiplicity "1" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 150787 // <association>
+	  b role_name "" multiplicity "1..*" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${stereotype}<${type}> ${name}${value};
+"
+	    classrelation_ref 150915 // <association>
+	  association_type class_ref 142851 // Racun
+      end
+
+      classrelation 136968 // <association>
+	relation 136328 ----
+	  a role_name "" multiplicity "1" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 136968 // <association>
+	  b role_name "" multiplicity "1" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 137096 // <association>
+      end
+
+      classrelation 158728 // <association>
+	relation_ref 157320 // <association>
+      end
+    end
+
+    class 142851 "Racun"
+      visibility package stereotype "entity"
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      attribute 137091 "ukupnaCena"
+	private explicit_type "double"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 137219 "datum"
+	private explicit_type "Date"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 137347 "vreme"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      classrelation 141955 // <association>
+	relation 141955 ----
+	  a role_name "" multiplicity "1..*" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${stereotype}<${type}> ${name}${value};
+"
+	    classrelation_ref 141955 // <association>
+	  b role_name "" multiplicity "1" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 142083 // <association>
+      end
+
+      classrelation 137096 // <association>
+	relation_ref 136328 // <association>
+      end
+    end
+
+    class 142979 "Stavka"
+      visibility package stereotype "entity"
+      cpp_decl ""
+      java_decl "${comment}${@}${visibility}${static}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      attribute 137603 "naziv"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 137731 "cena"
+	private explicit_type "double"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 137859 "kolicina"
+	private explicit_type "int"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      classrelation 142083 // <association>
+	relation_ref 141955 // <association>
+      end
+
+      classrelation 142211 // <association>
+	relation 142083 ----
+	  a role_name "" multiplicity "1" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 142211 // <association>
+	  b role_name "" multiplicity "1..*" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${stereotype}<${type}> ${name}${value};
+"
+	    classrelation_ref 142339 // <association>
+      end
+
+      attribute 138115 "popust"
+	private explicit_type "bool"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      classrelation 142595 // <association>
+	relation_ref 142211 // <association>
+      end
+    end
+
+    class 143107 "Posetilac"
+      visibility package stereotype "entity"
+      cpp_decl ""
+      java_decl "${comment}${@}${visibility}${static}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      attribute 138371 "ime"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 138499 "prezime"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 138627 "jmbg"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 138755 "adresa"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      classrelation 143491 // <association>
+	relation 142851 ----
+	  a role_name "" multiplicity "*" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${stereotype}<${type}> ${name}${value};
+"
+	    classrelation_ref 143491 // <association>
+	  b role_name "" multiplicity "1" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 143619 // <association>
+	  association_type class_ref 143491 // Komentar
+      end
+
+      classrelation 158472 // <association>
+	relation_ref 157192 // <association>
+      end
+
+      attribute 135560 "email"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+    end
+
+    class 143235 "Hrana"
+      visibility package stereotype "entity"
+      cpp_decl ""
+      java_decl "${comment}${@}${visibility}${static}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      attribute 138883 "sastojci"
+	private explicit_type "string"
+	multiplicity "1..*"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${stereotype}<${type}> ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      classrelation 143235 // <generalisation>
+	relation 142595 ---|>
+	  a public
+	    java "${type}"
+	    classrelation_ref 143235 // <generalisation>
+	  b parent class_ref 142979 // Stavka
+      end
+    end
+
+    class 143363 "Pice"
+      visibility package stereotype "entity"
+      cpp_decl ""
+      java_decl "${comment}${@}${visibility}${static}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      attribute 139139 "alkoholno"
+	private explicit_type "bool"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      classrelation 143363 // <generalisation>
+	relation 142723 ---|>
+	  a public
+	    java "${type}"
+	    classrelation_ref 143363 // <generalisation>
+	  b parent class_ref 142979 // Stavka
+      end
+
+      attribute 152963 "gazirano"
+	private explicit_type "bool"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+    end
+
+    class 143491 "Komentar"
+      visibility package stereotype "entity"
+      cpp_decl ""
+      java_decl "${comment}${@}${visibility}${static}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      attribute 139395 "utisak"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 139523 "ocena"
+	private explicit_type "int"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+    end
+
+    class 143619 "Restoran"
+      visibility package stereotype "entity"
+      cpp_decl ""
+      java_decl "${comment}${@}${visibility}${static}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      attribute 139651 "naziv"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 139779 "adresa"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 139907 "brTelefona"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      classrelation 143875 // <association>
+	relation_ref 142979 // <association>
+      end
+
+      classrelation 144003 // <association>
+	relation 143107 ----
+	  a role_name "" multiplicity "1" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 144003 // <association>
+	  b role_name "" multiplicity "1..*" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${stereotype}<${type}> ${name}${value};
+"
+	    classrelation_ref 144131 // <association>
+      end
+
+      classrelation 136712 // <association>
+	relation 136200 ----
+	  a role_name "" multiplicity "1..*" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${stereotype}<${type}> ${name}${value};
+"
+	    classrelation_ref 136712 // <association>
+	  b role_name "" multiplicity "1" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 136840 // <association>
+      end
+    end
+
+    class 150147 "Popust"
+      visibility package stereotype "entity"
+      cpp_decl ""
+      java_decl "${comment}${@}${visibility}${static}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      classrelation 150915 // <association>
+	relation_ref 149763 // <association>
+      end
+
+      attribute 146435 "procenat"
+	private explicit_type "float"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+    end
+
+    class 128008 "PregledMenijaForma"
+      visibility package stereotype "boundary"
+      cpp_decl ""
+      java_decl "${comment}${@}${visibility}${static}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl "${comment}${abstract}${local}interface ${name}${inherit} {
+${members}};
+"
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      operation 128008 "prikazi"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      operation 128136 "unapredi"
+	public explicit_return_type ""
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+      end
+
+      classrelation 128008 // <association>
+	relation 128008 ----
+	  a role_name "" multiplicity "0..1" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${stereotype}<${type}> ${name}${value};
+"
+	    classrelation_ref 128008 // <association>
+	  b role_name "" multiplicity "1" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 128136 // <association>
+      end
+
+      classrelation 128776 // <dependency>
+	relation 128392 -_->
+	  a public
+	    classrelation_ref 128776 // <dependency>
+	  b parent class_ref 128520 // MeniKontroler
+      end
+    end
+
+    class 128136 "UnapredjenjeMenijaForma"
+      visibility package stereotype "boundary"
+      cpp_decl ""
+      java_decl "${comment}${@}${visibility}${static}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl "${comment}${abstract}${local}interface ${name}${inherit} {
+${members}};
+"
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      operation 128264 "dodajPopust"
+	public explicit_return_type ""
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+      end
+
+      operation 128392 "dodajStavku"
+	public explicit_return_type ""
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+      end
+
+      operation 128520 "zatvori"
+	public explicit_return_type ""
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+      end
+
+      classrelation 128136 // <association>
+	relation_ref 128008 // <association>
+      end
+
+      classrelation 128264 // <association>
+	relation 128136 ----
+	  a role_name "" multiplicity "0..1" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${stereotype}<${type}> ${name}${value};
+"
+	    classrelation_ref 128264 // <association>
+	  b role_name "" multiplicity "1" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 128392 // <association>
+      end
+
+      classrelation 128520 // <association>
+	relation 128264 ----
+	  a role_name "" multiplicity "0..1" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${stereotype}<${type}> ${name}${value};
+"
+	    classrelation_ref 128520 // <association>
+	  b role_name "" multiplicity "1" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 128648 // <association>
+      end
+    end
+
+    class 128264 "StavkaForma"
+      visibility package stereotype "boundary"
+      cpp_decl ""
+      java_decl "${comment}${@}${visibility}${static}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl "${comment}${abstract}${local}interface ${name}${inherit} {
+${members}};
+"
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      operation 128648 "sacuvaj"
+	public explicit_return_type ""
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+      end
+
+      operation 128776 "zatvori"
+	public explicit_return_type ""
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+      end
+
+      classrelation 128392 // <association>
+	relation_ref 128136 // <association>
+      end
+
+      classrelation 128904 // <dependency>
+	relation 128520 -_->
+	  a public
+	    classrelation_ref 128904 // <dependency>
+	  b parent class_ref 128520 // MeniKontroler
+      end
+
+      classrelation 129288 // <dependency>
+	relation 128904 -_->
+	  a public
+	    classrelation_ref 129288 // <dependency>
+	  b parent class_ref 128520 // MeniKontroler
+      end
+    end
+
+    class 128392 "PopustForma"
+      visibility package stereotype "boundary"
+      cpp_decl ""
+      java_decl "${comment}${@}${visibility}${static}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl "${comment}${abstract}${local}interface ${name}${inherit} {
+${members}};
+"
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      operation 128904 "sacuvaj"
+	public explicit_return_type ""
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+      end
+
+      operation 129032 "zatvori"
+	public explicit_return_type ""
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+      end
+
+      classrelation 128648 // <association>
+	relation_ref 128264 // <association>
+      end
+
+      classrelation 129032 // <dependency>
+	relation 128648 -_->
+	  a public
+	    classrelation_ref 129032 // <dependency>
+	  b parent class_ref 128520 // MeniKontroler
+      end
+
+      classrelation 129160 // <dependency>
+	relation 128776 -_->
+	  a public
+	    classrelation_ref 129160 // <dependency>
+	  b parent class_ref 128520 // MeniKontroler
+      end
+    end
+
+    class 128520 "MeniKontroler"
+      visibility package stereotype "control"
+      cpp_decl ""
+      java_decl "${comment}${@}${visibility}${static}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      operation 129160 "ucitajMeni"
+	public return_type class_ref 142979 // Stavka
+	multiplicity "1..*"
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+      end
+
+      operation 129288 "sacuvajPopust"
+	public explicit_return_type "bool"
+	nparams 1
+	  param in name "p" type class_ref 150147 // Popust
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+      end
+
+      operation 129416 "sacuvajStavku"
+	public explicit_return_type "bool"
+	nparams 1
+	  param in name "s" type class_ref 142979 // Stavka
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+      end
+
+      classrelation 129416 // <dependency>
+	relation 129032 -_->
+	  a public
+	    classrelation_ref 129416 // <dependency>
+	  b parent class_ref 142979 // Stavka
+      end
+
+      classrelation 129544 // <dependency>
+	relation 129160 -_->
+	  a public
+	    classrelation_ref 129544 // <dependency>
+	  b parent class_ref 150147 // Popust
+      end
+    end
+
+    class 128648 "PregledPodatakaForma"
+      visibility package stereotype "boundary"
+      cpp_decl ""
+      java_decl "${comment}${@}${visibility}${static}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl "${comment}${abstract}${local}interface ${name}${inherit} {
+${members}};
+"
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      operation 129672 "azuriraj"
+	public explicit_return_type ""
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+      end
+
+      classrelation 129672 // <association>
+	relation 129288 ----
+	  a role_name "" multiplicity "0..1" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${stereotype}<${type}> ${name}${value};
+"
+	    classrelation_ref 129672 // <association>
+	  b role_name "" multiplicity "1" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 129800 // <association>
+      end
+
+      classrelation 129928 // <dependency>
+	relation 129416 -_->
+	  a public
+	    classrelation_ref 129928 // <dependency>
+	  b parent class_ref 128904 // MenadzerKontroler
+      end
+    end
+
+    class 128776 "MenadzerForma"
+      visibility package stereotype "boundary"
+      cpp_decl ""
+      java_decl "${comment}${@}${visibility}${static}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl "${comment}${abstract}${local}interface ${name}${inherit} {
+${members}};
+"
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      operation 129800 "sacuvaj"
+	public explicit_return_type ""
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+      end
+
+      operation 129928 "zatvori"
+	public explicit_return_type ""
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+      end
+
+      classrelation 129800 // <association>
+	relation_ref 129288 // <association>
+      end
+
+      classrelation 130056 // <dependency>
+	relation 129544 -_->
+	  a public
+	    classrelation_ref 130056 // <dependency>
+	  b parent class_ref 128904 // MenadzerKontroler
+      end
+    end
+
+    class 128904 "MenadzerKontroler"
+      visibility package stereotype "control"
+      cpp_decl ""
+      java_decl "${comment}${@}${visibility}${static}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      operation 130056 "vratiMenadzera"
+	public explicit_return_type ""
+	multiplicity "1"
+	nparams 1
+	  param in name "jmbg" explicit_type "string"
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+      end
+
+      operation 130184 "sacuvajMenadzera"
+	public explicit_return_type "bool"
+	nparams 1
+	  param in name "m" type class_ref 141955 // Menadzer
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+      end
+
+      classrelation 130184 // <dependency>
+	relation 129672 -_->
+	  a public
+	    classrelation_ref 130184 // <dependency>
+	  b parent class_ref 141955 // Menadzer
+      end
+    end
+
+    class 135432 "Rezervacija"
+      visibility package stereotype "entity"
+      cpp_decl ""
+      java_decl "${comment}${@}${visibility}${static}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      attribute 128520 "vreme"
+	private explicit_type "string"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 128648 "datum"
+	private explicit_type "Date"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 128776 "brStola"
+	private explicit_type "int"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 128904 "brOsoba"
+	private explicit_type "int"
+	cpp_decl ""
+	java_decl "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      classrelation 136840 // <association>
+	relation_ref 136200 // <association>
+      end
+
+      classrelation 158216 // <association>
+	relation_ref 157064 // <association>
+      end
+
+      classrelation 158344 // <association>
+	relation 157192 ----
+	  a role_name "" multiplicity "1" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 158344 // <association>
+	  b role_name "" multiplicity "*" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${stereotype}<${type}> ${name}${value};
+"
+	    classrelation_ref 158472 // <association>
+      end
+    end
+
+    class 141960 "KreiranjeNarudzbineForma"
+      visibility package stereotype "boundary"
+      cpp_decl ""
+      java_decl "${comment}${@}${visibility}${static}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl "${comment}${abstract}${local}interface ${name}${inherit} {
+${members}};
+"
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      operation 136968 "prikaziMeni"
+	public explicit_return_type ""
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+      end
+
+      operation 137096 "unesiPodatke"
+	public explicit_return_type ""
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+      end
+
+      operation 137480 "sacuvaj"
+	public explicit_return_type ""
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+      end
+
+      classrelation 143624 // <association>
+	relation 142856 ----
+	  a role_name "" multiplicity "0..1" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${stereotype}<${type}> ${name}${value};
+"
+	    classrelation_ref 143624 // <association>
+	  b role_name "" multiplicity "1" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 143752 // <association>
+      end
+
+      classrelation 143880 // <association>
+	relation 142984 ----
+	  a role_name "" multiplicity "0..1" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${stereotype}<${type}> ${name}${value};
+"
+	    classrelation_ref 143880 // <association>
+	  b role_name "" multiplicity "1" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 144008 // <association>
+      end
+
+      classrelation 144392 // <dependency>
+	relation 143368 -_->
+	  a public
+	    classrelation_ref 144392 // <dependency>
+	  b parent class_ref 142344 // NarudzbinaKontroler
+      end
+    end
+
+    class 142088 "MeniForma"
+      visibility package stereotype "boundary"
+      cpp_decl ""
+      java_decl "${comment}${@}${visibility}${static}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl "${comment}${abstract}${local}interface ${name}${inherit} {
+${members}};
+"
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      operation 137608 "sacuvajStavku"
+	public explicit_return_type ""
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+      end
+
+      classrelation 143752 // <association>
+	relation_ref 142856 // <association>
+      end
+
+      classrelation 144136 // <dependency>
+	relation 143112 -_->
+	  a public
+	    classrelation_ref 144136 // <dependency>
+	  b parent class_ref 142344 // NarudzbinaKontroler
+      end
+
+      operation 139016 "zatvori"
+	public explicit_return_type ""
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+      end
+    end
+
+    class 142216 "PosetilacForma"
+      visibility package stereotype "boundary"
+      cpp_decl ""
+      java_decl "${comment}${@}${visibility}${static}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl "${comment}${abstract}${local}interface ${name}${inherit} {
+${members}};
+"
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      operation 137736 "sacuvajLicnePodatke"
+	public explicit_return_type ""
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+      end
+
+      operation 137864 "odaberiNacinPlacanja"
+	public explicit_return_type ""
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+      end
+
+      classrelation 144008 // <association>
+	relation_ref 142984 // <association>
+      end
+
+      classrelation 144264 // <dependency>
+	relation 143240 -_->
+	  a public
+	    classrelation_ref 144264 // <dependency>
+	  b parent class_ref 142344 // NarudzbinaKontroler
+      end
+
+      operation 139144 "zatvori"
+	public explicit_return_type ""
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+      end
+    end
+
+    class 142344 "NarudzbinaKontroler"
+      visibility package stereotype "control"
+      cpp_decl ""
+      java_decl "${comment}${@}${visibility}${static}${final}${abstract}class ${name}${extends}${implements} {
+${members}}
+"
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      operation 138376 "vratiMeni"
+	public return_type class_ref 142595 // Meni
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+      end
+
+      operation 138504 "sacuvajOdabranuStavku"
+	public explicit_return_type "bool"
+	nparams 1
+	  param in name "s" type class_ref 142979 // Stavka
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+      end
+
+      operation 138632 "sacuvajPosetioca"
+	public explicit_return_type "bool"
+	nparams 1
+	  param in name "p" type class_ref 143107 // Posetilac
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+      end
+
+      operation 138760 "vratiNacinePlacanja"
+	public explicit_return_type "string"
+	multiplicity "1..*"
+	nparams 0
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+      end
+
+      operation 138888 "sacuvajNacinPlacanja"
+	public explicit_return_type "bool"
+	nparams 1
+	  param in name "p" type class_ref 143107 // Posetilac
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+      end
+
+      classrelation 144520 // <dependency>
+	relation 143496 -_->
+	  a public
+	    classrelation_ref 144520 // <dependency>
+	  b parent class_ref 142979 // Stavka
+      end
+
+      classrelation 144648 // <dependency>
+	relation 143624 -_->
+	  a public
+	    classrelation_ref 144648 // <dependency>
+	  b parent class_ref 143107 // Posetilac
+      end
+
+      classrelation 144776 // <dependency>
+	relation 143752 -_->
+	  a public
+	    classrelation_ref 144776 // <dependency>
+	  b parent class_ref 142595 // Meni
+      end
+
+      classrelation 144904 // <dependency>
+	relation 143880 -_->
+	  a public
+	    classrelation_ref 144904 // <dependency>
+	  b parent class_ref 142595 // Meni
+      end
+
+      classrelation 151432 // <dependency>
+	relation 150408 -_->
+	  a public
+	    classrelation_ref 151432 // <dependency>
+	  b parent class_ref 142595 // Meni
+      end
+
+      classrelation 151560 // <dependency>
+	relation 150536 -_->
+	  a public
+	    classrelation_ref 151560 // <dependency>
+	  b parent class_ref 142979 // Stavka
+      end
+
+      operation 145672 "sacuvajNarudzbinu"
+	public explicit_return_type "bool"
+	nparams 1
+	  param in name "p" type class_ref 143107 // Posetilac
+	
+	java_def "  ${comment}${@}${visibility}${final}${static}${abstract}${synchronized}${type} ${name}${(}${t0} ${p0}${)}${throws}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+      end
+    end
+  end
+
+  classview 128008 "DijagramiSekvenci"
+    
+    classdiagramsettings member_max_width 0 end
+    
+    classcompositediagramsettings end
+    
+    collaborationdiagramsettings end
+    
+    objectdiagramsettings end
+    
+    objectcompositediagramsettings end
+    
+    sequencediagramsettings end
+    
+    statediagramsettings
+     end
+    
+    
+    activitydiagramsettings
+     end
+    sequencediagram 128008 "DijagramSekvenci1"
+      sequencediagramsettings end
+      overlapping_bars size A2
+    end
+
+    classinstance 128008 "pregledMenijaF"
+      type class_ref 128008 // PregledMenijaForma
+      attributes
+        end
+      relations
+        end
+    end
+
+    classinstance 128136 "meniKontr"
+      type class_ref 128520 // MeniKontroler
+      attributes
+        end
+      relations
+        end
+    end
+
+    classinstance 128264 "meni"
+      type class_ref 142595 // Meni
+      attributes
+        end
+      relations
+        end
+    end
+
+    classinstance 128392 "unapredjenjeMF"
+      type class_ref 128136 // UnapredjenjeMenijaForma
+      attributes
+        end
+      relations
+        end
+    end
+
+    classinstance 128520 "popustF"
+      type class_ref 128392 // PopustForma
+      attributes
+        end
+      relations
+        end
+    end
+
+    classinstance 128648 "popust"
+      type class_ref 150147 // Popust
+      attributes
+        end
+      relations
+        end
+    end
+
+    classinstance 128776 "stavkaF"
+      type class_ref 128264 // StavkaForma
+      attributes
+        end
+      relations
+        end
+    end
+
+    classinstance 128904 "stavka"
+      type class_ref 142979 // Stavka
+      attributes
+        end
+      relations
+        end
+    end
+
+    sequencediagram 128136 "DijagramSekvenci2"
+      sequencediagramsettings end
+      overlapping_bars size A2
+    end
+
+    classinstance 129032 "pregledPodatakaF"
+      type class_ref 128648 // PregledPodatakaForma
+      attributes
+        end
+      relations
+        end
+    end
+
+    classinstance 129288 "menadzer"
+      type class_ref 141955 // Menadzer
+      attributes
+        end
+      relations
+        end
+    end
+
+    classinstance 129160 "menadzerKontr"
+      type class_ref 128904 // MenadzerKontroler
+      attributes
+        end
+      relations
+        end
+    end
+
+    classinstance 129416 "menadzerF"
+      type class_ref 128776 // MenadzerForma
+      attributes
+        end
+      relations
+        end
+    end
+
+    sequencediagram 134664 "DijagramSekvenci3"
+      sequencediagramsettings end
+      overlapping_bars size A2
+    end
+
+    classinstance 135944 "kreiranjeNarudzbineF"
+      type class_ref 141960 // KreiranjeNarudzbineForma
+      attributes
+        end
+      relations
+        end
+    end
+
+    classinstance 136072 "narudzbina"
+      type class_ref 142723 // Narudzbina
+      attributes
+        end
+      relations
+        end
+    end
+
+    classinstance 136200 "meniF"
+      type class_ref 142088 // MeniForma
+      attributes
+        end
+      relations
+        end
+    end
+
+    classinstance 136328 "narudzbinaKontr"
+      type class_ref 142344 // NarudzbinaKontroler
+      attributes
+        end
+      relations
+        end
+    end
+
+    classinstance 142856 "posetilacF"
+      type class_ref 142216 // PosetilacForma
+      attributes
+        end
+      relations
+        end
+    end
+
+    classinstance 142984 "posetilac"
+      type class_ref 143107 // Posetilac
+      attributes
+        end
+      relations
+        end
+    end
+  end
+end

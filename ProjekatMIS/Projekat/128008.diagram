@@ -1,0 +1,355 @@
+format 224
+
+classinstance 128008 class_ref 141955 // Menadzer
+  drawing_mode actor  name ""   xyz 8.6 5 2005 life_line_z 2000
+classinstancecanvas 128136 classinstance_ref 128008 // pregledMenijaF
+  xyz 66.6 5 2010 life_line_z 2000
+end
+classinstancecanvas 128776 classinstance_ref 128136 // meniKontr
+  xyz 986.2 3.6 2015 life_line_z 2000
+end
+classinstancecanvas 129288 classinstance_ref 128264 // meni
+  xyz 1124.4 74.2 2020 life_line_z 2000
+end
+classinstancecanvas 131720 classinstance_ref 128392 // unapredjenjeMF
+  xyz 270.4 5.2 2015 life_line_z 2000
+end
+classinstancecanvas 133000 classinstance_ref 128520 // popustF
+  xyz 502 3.6 2020 life_line_z 2000
+end
+classinstancecanvas 133512 classinstance_ref 128648 // popust
+  xyz 593.6 383 2020 life_line_z 2000
+end
+classinstancecanvas 136584 classinstance_ref 128776 // stavkaF
+  xyz 645.6 3.6 2025 life_line_z 2000
+end
+classinstancecanvas 137096 classinstance_ref 128904 // stavka
+  xyz 719.8 765.4 2030 life_line_z 2000
+end
+fragment 140552 "opt"
+  refer sequencediagram_ref 128008 // DijagramSekvenci1
+  form "dodajPopust" xyzwh 2 333 2020 1227 405
+end
+fragment 140680 "opt"
+  refer sequencediagram_ref 128008 // DijagramSekvenci1
+  form "dodajStavku" xyzwh 2 741 2025 1227 470
+end
+durationcanvas 128264 classinstance_ref 128008 // :Menadzer
+  xyzwh 30 61 2010 11 40
+end
+durationcanvas 128392 classinstance_ref 128136 // pregledMenijaF:PregledMenijaForma
+  xyzwh 152 60.2 2010 11 25
+end
+durationcanvas 128904 classinstance_ref 128136 // pregledMenijaF:PregledMenijaForma
+  xyzwh 152 95.4 2010 11 40
+end
+durationcanvas 129032 classinstance_ref 128776 // meniKontr:MeniKontroler
+  xyzwh 1045 94.6 2010 11 25
+end
+durationcanvas 129416 classinstance_ref 128776 // meniKontr:MeniKontroler
+  xyzwh 1046 130.4 2010 11 40
+end
+durationcanvas 129544 classinstance_ref 129288 // meni:Meni
+  xyzwh 1148 129.6 2010 11 25
+end
+durationcanvas 130568 classinstance_ref 129288 // meni:Meni
+  xyzwh 1148 171 2010 11 39
+end
+durationcanvas 130696 classinstance_ref 128776 // meniKontr:MeniKontroler
+  xyzwh 1046 171 2010 11 30
+end
+durationcanvas 130952 classinstance_ref 128776 // meniKontr:MeniKontroler
+  xyzwh 1045 216 2010 11 40
+end
+durationcanvas 131080 classinstance_ref 128136 // pregledMenijaF:PregledMenijaForma
+  xyzwh 152 215.2 2010 11 25
+end
+durationcanvas 131336 classinstance_ref 128008 // :Menadzer
+  xyzwh 30 239.4 2010 11 41
+end
+durationcanvas 131464 classinstance_ref 128136 // pregledMenijaF:PregledMenijaForma
+  xyzwh 152 254 2010 11 34
+end
+durationcanvas 132232 classinstance_ref 128136 // pregledMenijaF:PregledMenijaForma
+  xyzwh 152 295.4 2010 11 30
+end
+durationcanvas 132360 classinstance_ref 131720 // unapredjenjeMF:UnapredjenjeMenijaForma
+  xyzwh 372 295 2010 11 32
+end
+durationcanvas 132616 classinstance_ref 128008 // :Menadzer
+  xyzwh 30 386 2010 11 40
+end
+durationcanvas 132744 classinstance_ref 131720 // unapredjenjeMF:UnapredjenjeMenijaForma
+  xyzwh 372 385 2010 11 32
+end
+durationcanvas 133128 classinstance_ref 131720 // unapredjenjeMF:UnapredjenjeMenijaForma
+  xyzwh 371 421 2010 11 40
+end
+durationcanvas 133256 classinstance_ref 133000 // popustF:PopustForma
+  xyzwh 555 422.4 2010 11 25
+end
+durationcanvas 133640 classinstance_ref 133000 // popustF:PopustForma
+  xyzwh 555 460.4 2010 11 40
+end
+durationcanvas 133768 classinstance_ref 133512 // popust:Popust
+  xyzwh 628 459.6 2010 11 25
+end
+durationcanvas 134024 classinstance_ref 133512 // popust:Popust
+  xyzwh 628 505.4 2010 11 40
+end
+durationcanvas 134152 classinstance_ref 133000 // popustF:PopustForma
+  xyzwh 555 504.6 2010 11 25
+end
+durationcanvas 134408 classinstance_ref 128008 // :Menadzer
+  xyzwh 30 548.2 2010 11 40
+end
+durationcanvas 134536 classinstance_ref 133000 // popustF:PopustForma
+  xyzwh 555 549.4 2010 11 32
+end
+durationcanvas 134792 classinstance_ref 128776 // meniKontr:MeniKontroler
+  xyzwh 1045 567.4 2010 11 25
+end
+durationcanvas 135048 classinstance_ref 128776 // meniKontr:MeniKontroler
+  xyzwh 1045 605.4 2010 11 40
+end
+durationcanvas 135176 classinstance_ref 133000 // popustF:PopustForma
+  xyzwh 555 604.6 2010 11 25
+end
+durationcanvas 135432 classinstance_ref 128008 // :Menadzer
+  xyzwh 30 635 2010 11 32
+end
+durationcanvas 135560 classinstance_ref 133000 // popustF:PopustForma
+  xyzwh 555 635 2010 11 32
+end
+durationcanvas 135816 classinstance_ref 133000 // popustF:PopustForma
+  xyzwh 555 676 2010 11 30
+end
+durationcanvas 135944 classinstance_ref 131720 // unapredjenjeMF:UnapredjenjeMenijaForma
+  xyzwh 371 675.2 2010 11 25
+end
+durationcanvas 136200 classinstance_ref 128008 // :Menadzer
+  xyzwh 30 783.2 2010 11 40
+end
+durationcanvas 136328 classinstance_ref 131720 // unapredjenjeMF:UnapredjenjeMenijaForma
+  xyzwh 372 783 2010 11 25
+end
+durationcanvas 136712 classinstance_ref 131720 // unapredjenjeMF:UnapredjenjeMenijaForma
+  xyzwh 372 820.4 2010 11 40
+end
+durationcanvas 136840 classinstance_ref 136584 // stavkaF:StavkaForma
+  xyzwh 698 819.6 2010 11 25
+end
+durationcanvas 137224 classinstance_ref 136584 // stavkaF:StavkaForma
+  xyzwh 698 856 2010 11 40
+end
+durationcanvas 137352 classinstance_ref 137096 // stavka:Stavka
+  xyzwh 753 857.4 2010 11 25
+end
+durationcanvas 137608 classinstance_ref 137096 // stavka:Stavka
+  xyzwh 753 897.4 2010 11 25
+end
+durationcanvas 137736 classinstance_ref 136584 // stavkaF:StavkaForma
+  xyzwh 698 900.4 2010 11 30
+end
+durationcanvas 137992 classinstance_ref 128008 // :Menadzer
+  xyzwh 30 961 2010 11 40
+end
+durationcanvas 138120 classinstance_ref 136584 // stavkaF:StavkaForma
+  xyzwh 698 961.2 2010 11 34
+end
+durationcanvas 138376 classinstance_ref 128776 // meniKontr:MeniKontroler
+  xyzwh 1045 980.2 2010 11 25
+end
+durationcanvas 138632 classinstance_ref 128776 // meniKontr:MeniKontroler
+  xyzwh 1045 1026 2010 11 40
+end
+durationcanvas 138760 classinstance_ref 136584 // stavkaF:StavkaForma
+  xyzwh 698 1027.4 2010 11 25
+end
+durationcanvas 139016 classinstance_ref 128008 // :Menadzer
+  xyzwh 30 1068.2 2010 11 40
+end
+durationcanvas 139144 classinstance_ref 136584 // stavkaF:StavkaForma
+  xyzwh 698 1068 2010 11 25
+end
+durationcanvas 139400 classinstance_ref 136584 // stavkaF:StavkaForma
+  xyzwh 698 1126 2010 11 40
+end
+durationcanvas 139528 classinstance_ref 131720 // unapredjenjeMF:UnapredjenjeMenijaForma
+  xyzwh 372 1127.4 2010 11 25
+end
+durationcanvas 139784 classinstance_ref 128008 // :Menadzer
+  xyzwh 30 1248.2 2010 11 40
+end
+durationcanvas 139912 classinstance_ref 131720 // unapredjenjeMF:UnapredjenjeMenijaForma
+  xyzwh 372 1248 2010 11 25
+end
+durationcanvas 140168 classinstance_ref 131720 // unapredjenjeMF:UnapredjenjeMenijaForma
+  xyzwh 371 1286 2010 11 40
+end
+durationcanvas 140296 classinstance_ref 128136 // pregledMenijaF:PregledMenijaForma
+  xyzwh 152 1285.2 2010 11 25
+end
+msg 128520 synchronous
+  from durationcanvas_ref 128264
+  to durationcanvas_ref 128392
+  yz 62 2015 msg operation_ref 128008 // "prikazi()"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 80 46
+msg 129160 synchronous
+  from durationcanvas_ref 128904
+  to durationcanvas_ref 129032
+  yz 96 2015 msg operation_ref 129160 // "ucitajMeni() : Stavka [1..*]"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 224 80
+msg 129672 synchronous
+  from durationcanvas_ref 129416
+  to durationcanvas_ref 129544
+  yz 131 2015 explicitmsg "create()"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 1072 115
+msg 130824 return
+  from durationcanvas_ref 130568
+  to durationcanvas_ref 130696
+  yz 177 2015 explicitmsg "void"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 1082 161
+msg 131208 return
+  from durationcanvas_ref 130952
+  to durationcanvas_ref 131080
+  yz 217 2015 explicitmsg "meni"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 235 201
+msg 131592 synchronous
+  from durationcanvas_ref 131336
+  to durationcanvas_ref 131464
+  yz 259 2015 msg operation_ref 128136 // "unapredi()"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 76 243
+msg 132488 synchronous
+  from durationcanvas_ref 132232
+  to durationcanvas_ref 132360
+  yz 297 2015 explicitmsg "otvori()"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 257 281
+msg 132872 synchronous
+  from durationcanvas_ref 132616
+  to durationcanvas_ref 132744
+  yz 402 2015 msg operation_ref 128264 // "dodajPopust()"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 177 386
+msg 133384 synchronous
+  from durationcanvas_ref 133128
+  to durationcanvas_ref 133256
+  yz 424 2015 explicitmsg "otvori()"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 409 408
+msg 133896 synchronous
+  from durationcanvas_ref 133640
+  to durationcanvas_ref 133768
+  yz 461 2015 explicitmsg "create()"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 575 445
+msg 134280 return
+  from durationcanvas_ref 134024
+  to durationcanvas_ref 134152
+  yz 506 2015 explicitmsg "void"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 585 490
+msg 134664 synchronous
+  from durationcanvas_ref 134408
+  to durationcanvas_ref 134536
+  yz 550 2015 msg operation_ref 128904 // "sacuvaj()"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 279 534
+msg 134920 synchronous
+  from durationcanvas_ref 134536
+  to durationcanvas_ref 134792
+  yz 569 2020 msg operation_ref 129288 // "sacuvajPopust(in p : Popust) : bool"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 770 553
+msg 135304 return
+  from durationcanvas_ref 135048
+  to durationcanvas_ref 135176
+  yz 606 2015 explicitmsg "true/false"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 787 590
+msg 135688 synchronous
+  from durationcanvas_ref 135432
+  to durationcanvas_ref 135560
+  yz 637 2015 msg operation_ref 129032 // "zatvori()"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 280 621
+msg 136072 return
+  from durationcanvas_ref 135816
+  to durationcanvas_ref 135944
+  yz 677 2015 explicitmsg "void"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 465 661
+msg 136456 synchronous
+  from durationcanvas_ref 136200
+  to durationcanvas_ref 136328
+  yz 785 2015 msg operation_ref 128392 // "dodajStavku()"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 176 769
+msg 136968 synchronous
+  from durationcanvas_ref 136712
+  to durationcanvas_ref 136840
+  yz 821 2015 explicitmsg "otvori()"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 523 805
+msg 137480 synchronous
+  from durationcanvas_ref 137224
+  to durationcanvas_ref 137352
+  yz 859 2015 explicitmsg "create()"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 723 843
+msg 137864 return
+  from durationcanvas_ref 137608
+  to durationcanvas_ref 137736
+  yz 901 2015 explicitmsg "void"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 733 885
+msg 138248 synchronous
+  from durationcanvas_ref 137992
+  to durationcanvas_ref 138120
+  yz 962 2015 msg operation_ref 128648 // "sacuvaj()"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 345 946
+msg 138504 synchronous
+  from durationcanvas_ref 138120
+  to durationcanvas_ref 138376
+  yz 982 2015 msg operation_ref 129416 // "sacuvajStavku(in s : Stavka) : bool"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 850 966
+msg 138888 return
+  from durationcanvas_ref 138632
+  to durationcanvas_ref 138760
+  yz 1029 2015 explicitmsg "true/false"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 865 1013
+msg 139272 synchronous
+  from durationcanvas_ref 139016
+  to durationcanvas_ref 139144
+  yz 1070 2015 msg operation_ref 128776 // "zatvori()"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 346 1054
+msg 139656 return
+  from durationcanvas_ref 139400
+  to durationcanvas_ref 139528
+  yz 1129 2015 explicitmsg "void"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 531 1113
+msg 140040 synchronous
+  from durationcanvas_ref 139784
+  to durationcanvas_ref 139912
+  yz 1250 2015 msg operation_ref 128520 // "zatvori()"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 189 1234
+msg 140424 return
+  from durationcanvas_ref 140168
+  to durationcanvas_ref 140296
+  yz 1287 2015 explicitmsg "void"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 263 1271
+end

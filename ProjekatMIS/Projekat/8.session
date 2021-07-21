@@ -1,0 +1,24 @@
+window_sizes 1360 705 318 1037 555 104
+
+diagrams
+  classdiagram_ref 141187 // dijagramm
+    1037 555 80 A2 856 0
+  sequencediagram_ref 128008 // DijagramSekvenci1
+    114 86 80 A2 0 0
+  sequencediagram_ref 128136 // DijagramSekvenci2
+    114 86 80 A2 0 0
+  sequencediagram_ref 134664 // DijagramSekvenci3
+    1037 555 80 A2 0 0
+  usecasediagram_ref 128131 // dijagram
+    1037 555 68 A2 466 141
+  activitydiagram_ref 141192 // dijagram1
+    114 86 68 A2 302 0
+  active  activitydiagram_ref 141320 // dijagram2
+    1037 555 69 A2 545 0
+end
+show_stereotypes
+selected activitydiagram_ref 141320 // dijagram2
+open
+  activity_ref 128136 // Dijagram2
+end
+end

@@ -1,0 +1,153 @@
+format 224
+
+classinstance 128008 class_ref 141827 // Vlasnik
+  drawing_mode actor  name ""   xyz 7.6 5.1 2000 life_line_z 2000
+classinstancecanvas 128136 classinstance_ref 129032 // pregledPodatakaF
+  xyz 56.7 4.9 2005 life_line_z 2000
+end
+classinstancecanvas 128264 classinstance_ref 129160 // menadzerKontr
+  xyz 562.4 8.7 2010 life_line_z 2000
+end
+classinstancecanvas 128392 classinstance_ref 129288 // menadzer
+  xyz 748.1 40.4 2015 life_line_z 2000
+end
+classinstancecanvas 130824 classinstance_ref 129416 // menadzerF
+  xyz 244.9 181.1 2010 life_line_z 2000
+end
+fragment 133256 "opt"
+  refer sequencediagram_ref 128136 // DijagramSekvenci2
+  form "azuriranjePodatakaOMenadzeru" xyzwh 3.8 232.2 2020 862 349
+end
+durationcanvas 128520 classinstance_ref 128136 // pregledPodatakaF:PregledPodatakaForma
+  xyzwh 156 59.7 2010 11 25
+end
+durationcanvas 128648 classinstance_ref 128264 // menadzerKontr:MenadzerKontroler
+  xyzwh 648 58.7 2010 11 26
+end
+durationcanvas 128904 classinstance_ref 128264 // menadzerKontr:MenadzerKontroler
+  xyzwh 647 88 2010 11 26
+end
+durationcanvas 129032 classinstance_ref 128392 // menadzer:Menadzer
+  xyzwh 799 93.5 2010 11 25
+end
+durationcanvas 129288 classinstance_ref 128392 // menadzer:Menadzer
+  xyzwh 799 123.6 2010 11 31
+end
+durationcanvas 129416 classinstance_ref 128264 // menadzerKontr:MenadzerKontroler
+  xyzwh 647 122.5 2010 11 26
+end
+durationcanvas 129672 classinstance_ref 128264 // menadzerKontr:MenadzerKontroler
+  xyzwh 647 155.3 2010 11 29
+end
+durationcanvas 129800 classinstance_ref 128136 // pregledPodatakaF:PregledPodatakaForma
+  xyzwh 156 152.3 2010 11 36
+end
+durationcanvas 130056 classinstance_ref 128008 // :Vlasnik
+  xyzwh 22 260.1 2010 11 27
+end
+durationcanvas 130184 classinstance_ref 128136 // pregledPodatakaF:PregledPodatakaForma
+  xyzwh 156 257 2010 11 28
+end
+durationcanvas 130952 classinstance_ref 128136 // pregledPodatakaF:PregledPodatakaForma
+  xyzwh 156 292.4 2010 11 41
+end
+durationcanvas 131080 classinstance_ref 130824 // menadzerF:MenadzerForma
+  xyzwh 312 295.9 2010 11 25
+end
+durationcanvas 131336 classinstance_ref 128008 // :Vlasnik
+  xyzwh 22 344.8 2010 11 40
+end
+durationcanvas 131464 classinstance_ref 130824 // menadzerF:MenadzerForma
+  xyzwh 312 339.4 2010 11 28
+end
+durationcanvas 131720 classinstance_ref 130824 // menadzerF:MenadzerForma
+  xyzwh 313 387.2 2010 11 40
+end
+durationcanvas 131848 classinstance_ref 128264 // menadzerKontr:MenadzerKontroler
+  xyzwh 648 370.8 2010 11 28
+end
+durationcanvas 132104 classinstance_ref 128264 // menadzerKontr:MenadzerKontroler
+  xyzwh 648 424.2 2010 11 25
+end
+durationcanvas 132232 classinstance_ref 130824 // menadzerF:MenadzerForma
+  xyzwh 312 437.3 2010 11 25
+end
+durationcanvas 132488 classinstance_ref 128008 // :Vlasnik
+  xyzwh 23 495.5 2010 11 40
+end
+durationcanvas 132616 classinstance_ref 130824 // menadzerF:MenadzerForma
+  xyzwh 312 481.8 2010 11 26
+end
+durationcanvas 132872 classinstance_ref 130824 // menadzerF:MenadzerForma
+  xyzwh 312 519.3 2010 11 41
+end
+durationcanvas 133000 classinstance_ref 128136 // pregledPodatakaF:PregledPodatakaForma
+  xyzwh 156 538.7 2010 11 27
+end
+msg 128776 synchronous
+  from durationcanvas_ref 128520
+  to durationcanvas_ref 128648
+  yz 59 2015 msg operation_ref 130056 // "vratiMenadzera(in jmbg : string) :  [1]"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 274 45
+msg 129160 synchronous
+  from durationcanvas_ref 128904
+  to durationcanvas_ref 129032
+  yz 96 2015 explicitmsg "create()"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 675 82
+msg 129544 return
+  from durationcanvas_ref 129288
+  to durationcanvas_ref 129416
+  yz 123 2015 explicitmsg "void"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 684 109
+msg 129928 return
+  from durationcanvas_ref 129672
+  to durationcanvas_ref 129800
+  yz 155 2015 explicitmsg "menadzer"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 291 141
+msg 130312 synchronous
+  from durationcanvas_ref 130056
+  to durationcanvas_ref 130184
+  yz 266 2015 msg operation_ref 129672 // "azuriraj()"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 73 252
+msg 131208 synchronous
+  from durationcanvas_ref 130952
+  to durationcanvas_ref 131080
+  yz 308 2015 explicitmsg "otvori()"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 222 294
+msg 131592 synchronous
+  from durationcanvas_ref 131336
+  to durationcanvas_ref 131464
+  yz 356 2015 msg operation_ref 129800 // "sacuvaj()"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 150 342
+msg 131976 synchronous
+  from durationcanvas_ref 131720
+  to durationcanvas_ref 131848
+  yz 388 2015 msg operation_ref 130184 // "sacuvajMenadzera(in m : Menadzer) : bool"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 435 374
+msg 132360 return
+  from durationcanvas_ref 132104
+  to durationcanvas_ref 132232
+  yz 438 2015 explicitmsg "true/false"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 462 424
+msg 132744 synchronous
+  from durationcanvas_ref 132488
+  to durationcanvas_ref 132616
+  yz 497 2015 msg operation_ref 129928 // "zatvori()"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 153 483
+msg 133128 return
+  from durationcanvas_ref 132872
+  to durationcanvas_ref 133000
+  yz 549 2015 explicitmsg "void"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 229 535
+end

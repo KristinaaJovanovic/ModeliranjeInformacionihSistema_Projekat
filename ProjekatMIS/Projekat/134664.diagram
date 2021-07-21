@@ -1,0 +1,417 @@
+format 224
+
+classinstance 128008 class_ref 143107 // Posetilac
+  drawing_mode actor  name ""   xyz 4 2.6 2000 life_line_z 2000
+classinstancecanvas 128136 classinstance_ref 135944 // kreiranjeNarudzbineF
+  xyz 48 4.2 2005 life_line_z 2000
+end
+classinstancecanvas 128264 classinstance_ref 136072 // narudzbina
+  xyz 223.5 33.8 2010 life_line_z 2000
+end
+classinstancecanvas 129544 classinstance_ref 136200 // meniF
+  xyz 327.2 4.2 2000 life_line_z 2000
+end
+classinstancecanvas 130056 classinstance_ref 136328 // narudzbinaKontr
+  xyz 715.3 4.2 2005 life_line_z 2000
+end
+classinstancecanvas 130568 classinstance_ref 128264 // meni
+  xyz 845.2 189.6 2010 life_line_z 2000
+end
+classinstancecanvas 132616 classinstance_ref 128904 // stavka
+  xyz 901 239.6 2010 life_line_z 2000
+end
+fragment 134792 "loop"
+  refer sequencediagram_ref 134664 // DijagramSekvenci3
+  form "zeliJosStavkiSaMenija" xyzwh 12.5 362.5 2020 947 207
+end
+classinstancecanvas 135304 classinstance_ref 142856 // posetilacF
+  xyz 426.6 4.2 2005 life_line_z 2000
+end
+classinstancecanvas 136584 classinstance_ref 142984 // posetilac
+  xyz 955.4 698.6 2000 life_line_z 2000
+end
+durationcanvas 128392 classinstance_ref 128136 // kreiranjeNarudzbineF:KreiranjeNarudzbineForma
+  xyzwh 165 81.8 2010 11 27
+end
+durationcanvas 128520 classinstance_ref 128264 // narudzbina:Narudzbina
+  xyzwh 279 81.8 2010 11 27
+end
+durationcanvas 128776 classinstance_ref 128264 // narudzbina:Narudzbina
+  xyzwh 279 115.6 2010 11 26
+end
+durationcanvas 128904 classinstance_ref 128136 // kreiranjeNarudzbineF:KreiranjeNarudzbineForma
+  xyzwh 165 116 2010 11 29
+end
+durationcanvas 129160 classinstance_ref 128008 // :Posetilac
+  xyzwh 26 157.4 2010 11 31
+end
+durationcanvas 129288 classinstance_ref 128136 // kreiranjeNarudzbineF:KreiranjeNarudzbineForma
+  xyzwh 165 157.2 2010 11 29
+end
+durationcanvas 129672 classinstance_ref 128136 // kreiranjeNarudzbineF:KreiranjeNarudzbineForma
+  xyzwh 165 193.8 2010 11 42
+end
+durationcanvas 129800 classinstance_ref 129544 // meniF:MeniForma
+  xyzwh 369 193 2010 11 26
+end
+durationcanvas 130184 classinstance_ref 129544 // meniF:MeniForma
+  xyzwh 369 226.8 2010 11 26
+end
+durationcanvas 130312 classinstance_ref 130056 // narudzbinaKontr:NarudzbinaKontroler
+  xyzwh 806 227.2 2010 11 29
+end
+durationcanvas 130696 classinstance_ref 130056 // narudzbinaKontr:NarudzbinaKontroler
+  xyzwh 807 263 2010 11 26
+end
+durationcanvas 130824 classinstance_ref 130568 // meni:Meni
+  xyzwh 869 264.4 2010 11 27
+end
+durationcanvas 131080 classinstance_ref 130568 // meni:Meni
+  xyzwh 870 301 2010 11 30
+end
+durationcanvas 131208 classinstance_ref 130056 // narudzbinaKontr:NarudzbinaKontroler
+  xyzwh 806 291.8 2010 11 26
+end
+durationcanvas 131464 classinstance_ref 130056 // narudzbinaKontr:NarudzbinaKontroler
+  xyzwh 806 321 2010 11 39
+end
+durationcanvas 131592 classinstance_ref 129544 // meniF:MeniForma
+  xyzwh 370 314.2 2010 11 26
+end
+durationcanvas 131848 classinstance_ref 128008 // :Posetilac
+  xyzwh 26 380 2010 11 41
+end
+durationcanvas 131976 classinstance_ref 129544 // meniF:MeniForma
+  xyzwh 369 379.2 2010 11 26
+end
+durationcanvas 132232 classinstance_ref 129544 // meniF:MeniForma
+  xyzwh 369 416.2 2010 11 41
+end
+durationcanvas 132360 classinstance_ref 130056 // narudzbinaKontr:NarudzbinaKontroler
+  xyzwh 806 416.8 2010 11 27
+end
+durationcanvas 132744 classinstance_ref 130056 // narudzbinaKontr:NarudzbinaKontroler
+  xyzwh 806 456.8 2010 11 26
+end
+durationcanvas 132872 classinstance_ref 132616 // stavka:Stavka
+  xyzwh 935 457.2 2010 11 29
+end
+durationcanvas 133128 classinstance_ref 132616 // stavka:Stavka
+  xyzwh 935 496 2010 11 29
+end
+durationcanvas 133256 classinstance_ref 130056 // narudzbinaKontr:NarudzbinaKontroler
+  xyzwh 807 495.6 2010 11 26
+end
+durationcanvas 133512 classinstance_ref 130056 // narudzbinaKontr:NarudzbinaKontroler
+  xyzwh 807 521 2010 11 30
+end
+durationcanvas 133640 classinstance_ref 129544 // meniF:MeniForma
+  xyzwh 370 516 2010 11 30
+end
+durationcanvas 133896 classinstance_ref 128008 // :Posetilac
+  xyzwh 26 572.2 2010 11 40
+end
+durationcanvas 134024 classinstance_ref 129544 // meniF:MeniForma
+  xyzwh 369 584.4 2010 11 27
+end
+durationcanvas 134280 classinstance_ref 129544 // meniF:MeniForma
+  xyzwh 369 627 2010 11 27
+end
+durationcanvas 134408 classinstance_ref 128136 // kreiranjeNarudzbineF:KreiranjeNarudzbineForma
+  xyzwh 165 624.8 2010 11 30
+end
+durationcanvas 134920 classinstance_ref 128008 // :Posetilac
+  xyzwh 26 727.2 2010 11 40
+end
+durationcanvas 135048 classinstance_ref 128136 // kreiranjeNarudzbineF:KreiranjeNarudzbineForma
+  xyzwh 165 728 2010 11 25
+end
+durationcanvas 135432 classinstance_ref 128136 // kreiranjeNarudzbineF:KreiranjeNarudzbineForma
+  xyzwh 165 761 2010 11 40
+end
+durationcanvas 135560 classinstance_ref 135304 // posetilacF:PosetilacForma
+  xyzwh 489 762.8 2010 11 25
+end
+durationcanvas 135816 classinstance_ref 128008 // :Posetilac
+  xyzwh 26 816 2010 11 40
+end
+durationcanvas 135944 classinstance_ref 135304 // posetilacF:PosetilacForma
+  xyzwh 489 815.4 2010 11 25
+end
+durationcanvas 136200 classinstance_ref 135304 // posetilacF:PosetilacForma
+  xyzwh 489 852.2 2010 11 40
+end
+durationcanvas 136328 classinstance_ref 130056 // narudzbinaKontr:NarudzbinaKontroler
+  xyzwh 807 853 2010 11 25
+end
+durationcanvas 136712 classinstance_ref 130056 // narudzbinaKontr:NarudzbinaKontroler
+  xyzwh 806 886 2010 11 40
+end
+durationcanvas 136840 classinstance_ref 136584 // posetilac:Posetilac
+  xyzwh 1000 885.4 2010 11 25
+end
+durationcanvas 137096 classinstance_ref 136584 // posetilac:Posetilac
+  xyzwh 1000 927.2 2010 11 40
+end
+durationcanvas 137224 classinstance_ref 130056 // narudzbinaKontr:NarudzbinaKontroler
+  xyzwh 806 928 2010 11 25
+end
+durationcanvas 137480 classinstance_ref 130056 // narudzbinaKontr:NarudzbinaKontroler
+  xyzwh 807 966 2010 11 40
+end
+durationcanvas 137608 classinstance_ref 135304 // posetilacF:PosetilacForma
+  xyzwh 489 967.8 2010 11 25
+end
+durationcanvas 138248 classinstance_ref 135304 // posetilacF:PosetilacForma
+  xyzwh 489 1052.2 2010 11 40
+end
+durationcanvas 138376 classinstance_ref 130056 // narudzbinaKontr:NarudzbinaKontroler
+  xyzwh 806 1053 2010 11 25
+end
+durationcanvas 138632 classinstance_ref 130056 // narudzbinaKontr:NarudzbinaKontroler
+  xyzwh 806 1112.2 2010 11 40
+end
+durationcanvas 138760 classinstance_ref 135304 // posetilacF:PosetilacForma
+  xyzwh 489 1113 2010 11 25
+end
+durationcanvas 139016 classinstance_ref 128008 // :Posetilac
+  xyzwh 26 1152.2 2010 11 40
+end
+durationcanvas 139144 classinstance_ref 135304 // posetilacF:PosetilacForma
+  xyzwh 489 1152.8 2010 11 25
+end
+durationcanvas 139400 classinstance_ref 135304 // posetilacF:PosetilacForma
+  xyzwh 489 1201 2010 11 40
+end
+durationcanvas 139528 classinstance_ref 130056 // narudzbinaKontr:NarudzbinaKontroler
+  xyzwh 806 1202.8 2010 11 25
+end
+durationcanvas 139784 classinstance_ref 130056 // narudzbinaKontr:NarudzbinaKontroler
+  xyzwh 807 1249.8 2010 11 40
+end
+durationcanvas 139912 classinstance_ref 135304 // posetilacF:PosetilacForma
+  xyzwh 489 1249.2 2010 11 25
+end
+durationcanvas 140168 classinstance_ref 128008 // :Posetilac
+  xyzwh 26 1308.4 2010 11 40
+end
+durationcanvas 140296 classinstance_ref 135304 // posetilacF:PosetilacForma
+  xyzwh 489 1308 2010 11 25
+end
+durationcanvas 140552 classinstance_ref 135304 // posetilacF:PosetilacForma
+  xyzwh 489 1361 2010 11 40
+end
+durationcanvas 140680 classinstance_ref 128136 // kreiranjeNarudzbineF:KreiranjeNarudzbineForma
+  xyzwh 165 1360.4 2010 11 25
+end
+durationcanvas 140936 classinstance_ref 128008 // :Posetilac
+  xyzwh 26 1476 2010 11 40
+end
+durationcanvas 141064 classinstance_ref 128136 // kreiranjeNarudzbineF:KreiranjeNarudzbineForma
+  xyzwh 165 1475.4 2010 11 25
+end
+durationcanvas 141320 classinstance_ref 128136 // kreiranjeNarudzbineF:KreiranjeNarudzbineForma
+  xyzwh 165 1521 2010 11 40
+end
+durationcanvas 141448 classinstance_ref 130056 // narudzbinaKontr:NarudzbinaKontroler
+  xyzwh 807 1520.4 2010 11 25
+end
+durationcanvas 141704 classinstance_ref 130056 // narudzbinaKontr:NarudzbinaKontroler
+  xyzwh 806 1574.8 2010 11 40
+end
+durationcanvas 141832 classinstance_ref 128136 // kreiranjeNarudzbineF:KreiranjeNarudzbineForma
+  xyzwh 165 1574.2 2010 11 25
+end
+msg 128648 synchronous
+  from durationcanvas_ref 128392
+  to durationcanvas_ref 128520
+  yz 82 2015 explicitmsg "create()"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 209 68
+msg 129032 return
+  from durationcanvas_ref 128776
+  to durationcanvas_ref 128904
+  yz 117 2015 explicitmsg "void"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 218 103
+msg 129416 synchronous
+  from durationcanvas_ref 129160
+  to durationcanvas_ref 129288
+  yz 159 2015 msg operation_ref 136968 // "prikaziMeni()"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 71 145
+msg 129928 synchronous
+  from durationcanvas_ref 129672
+  to durationcanvas_ref 129800
+  yz 195 2015 explicitmsg "otvori()"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 255 181
+msg 130440 synchronous
+  from durationcanvas_ref 130184
+  to durationcanvas_ref 130312
+  yz 229 2015 msg operation_ref 138376 // "vratiMeni() : Meni"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 562 215
+msg 130952 synchronous
+  from durationcanvas_ref 130696
+  to durationcanvas_ref 130824
+  yz 266 2015 explicitmsg "create()"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 824 252
+msg 131336 return
+  from durationcanvas_ref 131080
+  to durationcanvas_ref 131208
+  yz 303 2015 explicitmsg "void"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 833 289
+msg 131720 return
+  from durationcanvas_ref 131464
+  to durationcanvas_ref 131592
+  yz 322 2015 explicitmsg "meni"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 582 308
+msg 132104 synchronous
+  from durationcanvas_ref 131848
+  to durationcanvas_ref 131976
+  yz 381 2015 msg operation_ref 137608 // "sacuvajStavku()"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 163 367
+msg 132488 synchronous
+  from durationcanvas_ref 132232
+  to durationcanvas_ref 132360
+  yz 418 2015 msg operation_ref 138504 // "sacuvajOdabranuStavku(in s : Stavka) : bool"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 530 404
+msg 133000 synchronous
+  from durationcanvas_ref 132744
+  to durationcanvas_ref 132872
+  yz 459 2015 explicitmsg "create()"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 857 445
+msg 133384 return
+  from durationcanvas_ref 133128
+  to durationcanvas_ref 133256
+  yz 497 2015 explicitmsg "void"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 866 483
+msg 133768 return
+  from durationcanvas_ref 133512
+  to durationcanvas_ref 133640
+  yz 525 2015 explicitmsg "true/false"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 570 511
+msg 134152 synchronous
+  from durationcanvas_ref 133896
+  to durationcanvas_ref 134024
+  yz 586 2015 msg operation_ref 139016 // "zatvori()"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 183 572
+msg 134536 return
+  from durationcanvas_ref 134280
+  to durationcanvas_ref 134408
+  yz 641 2015 explicitmsg "void"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 262 627
+msg 135176 synchronous
+  from durationcanvas_ref 134920
+  to durationcanvas_ref 135048
+  yz 730 2015 msg operation_ref 137096 // "unesiPodatke()"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 64 714
+msg 135688 synchronous
+  from durationcanvas_ref 135432
+  to durationcanvas_ref 135560
+  yz 764 2015 explicitmsg "otvori()"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 318 748
+msg 136072 synchronous
+  from durationcanvas_ref 135816
+  to durationcanvas_ref 135944
+  yz 817 2015 msg operation_ref 137736 // "sacuvajLicnePodatke()"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 212 801
+msg 136456 synchronous
+  from durationcanvas_ref 136200
+  to durationcanvas_ref 136328
+  yz 855 2015 msg operation_ref 138632 // "sacuvajPosetioca(in p : Posetilac) : bool"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 609 839
+msg 136968 synchronous
+  from durationcanvas_ref 136712
+  to durationcanvas_ref 136840
+  yz 887 2015 explicitmsg "create()"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 890 871
+msg 137352 return
+  from durationcanvas_ref 137096
+  to durationcanvas_ref 137224
+  yz 930 2015 explicitmsg "void"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 900 914
+msg 137736 return
+  from durationcanvas_ref 137480
+  to durationcanvas_ref 137608
+  yz 969 2015 explicitmsg "true/false"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 633 953
+msg 138504 synchronous
+  from durationcanvas_ref 138248
+  to durationcanvas_ref 138376
+  yz 1055 2015 msg operation_ref 138760 // "vratiNacinePlacanja() : string [1..*]"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 602 1039
+msg 138888 return
+  from durationcanvas_ref 138632
+  to durationcanvas_ref 138760
+  yz 1115 2015 explicitmsg "naciniplacanja"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 618 1099
+msg 139272 synchronous
+  from durationcanvas_ref 139016
+  to durationcanvas_ref 139144
+  yz 1154 2015 msg operation_ref 137864 // "odaberiNacinPlacanja()"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 206 1138
+msg 139656 synchronous
+  from durationcanvas_ref 139400
+  to durationcanvas_ref 139528
+  yz 1204 2015 msg operation_ref 138888 // "sacuvajNacinPlacanja(in p : Posetilac) : bool"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 595 1188
+msg 140040 return
+  from durationcanvas_ref 139784
+  to durationcanvas_ref 139912
+  yz 1251 2015 explicitmsg "true/false"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 629 1235
+msg 140424 synchronous
+  from durationcanvas_ref 140168
+  to durationcanvas_ref 140296
+  yz 1310 2015 msg operation_ref 139144 // "zatvori()"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 241 1294
+msg 140808 return
+  from durationcanvas_ref 140552
+  to durationcanvas_ref 140680
+  yz 1362 2015 explicitmsg "void"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 321 1346
+msg 141192 synchronous
+  from durationcanvas_ref 140936
+  to durationcanvas_ref 141064
+  yz 1477 2015 msg operation_ref 137480 // "sacuvaj()"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 78 1461
+msg 141576 synchronous
+  from durationcanvas_ref 141320
+  to durationcanvas_ref 141448
+  yz 1522 2015 msg operation_ref 145672 // "sacuvajNarudzbinu(in p : Posetilac) : bool"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 440 1506
+msg 141960 return
+  from durationcanvas_ref 141704
+  to durationcanvas_ref 141832
+  yz 1576 2015 explicitmsg "true/false"
+  show_full_operations_definition default show_class_of_operation default drawing_language default show_context_mode default
+  label_xy 467 1560
+end

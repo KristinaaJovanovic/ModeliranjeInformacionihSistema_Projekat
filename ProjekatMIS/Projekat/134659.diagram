@@ -1,0 +1,229 @@
+format 224
+
+activitynodecanvas 128003 activitynode_ref 128003 // initial_node
+  xyz 297 10 2000
+end
+activityactioncanvas 128131 activityaction_ref 134531 // activity action Prikaz svih stolova u restoranu
+  
+  show_opaque_action_definition default
+  xyzwh 259 52 2000 100 60
+end
+activitynodecanvas 128387 activitynode_ref 134531 // decision
+  xyz 311 314 2000
+end
+activityactioncanvas 128643 activityaction_ref 134659 // activity action Odabir stola za zeljenu rezervaciju
+  
+  show_opaque_action_definition default
+  xyzwh 100 398 2000 100 60
+end
+activityactioncanvas 129027 activityaction_ref 134787 // activity action Slanje obavestenja korisniku o nemogucnosti rezervacije
+  
+  show_opaque_action_definition default
+  xyzwh 497 386 2000 116 105
+end
+activityactioncanvas 129411 activityaction_ref 134915 // activity action Unos podataka potrebnih za rezervaciju
+  
+  show_opaque_action_definition default
+  xyzwh 102 496 2000 105 85
+end
+activityactioncanvas 129667 activityaction_ref 135043 // activity action Promena statusa rezervacije
+  
+  show_opaque_action_definition default
+  xyzwh 108 627 2000 100 60
+end
+activityactioncanvas 129923 activityaction_ref 135171 // activity action Unos datuma i vremena za zeljenu rezervaciju
+  
+  show_opaque_action_definition default
+  xyzwh 268 194 2000 102 77
+end
+activityactioncanvas 130307 activityaction_ref 135299 // activity action Cuvanje rezervacije u bazu
+  
+  show_opaque_action_definition default
+  xyzwh 111 731 2000 100 60
+end
+activityactioncanvas 130563 activityaction_ref 135427 // activity action Slanje obavestenja korisniku o uspesnoj rezervaciji
+  
+  show_opaque_action_definition default
+  xyzwh 115 838 2000 99 107
+end
+activitynodecanvas 131203 activitynode_ref 134915 // merge
+  xyz 299 128 2005
+end
+activitynodecanvas 131971 activitynode_ref 135043 // activity_final
+  xyz 342 1140 2000
+end
+activityactioncanvas 132483 activityaction_ref 135555 // activity action Prijem poruke i provera da li zeli novu rezervaciju
+  
+  show_opaque_action_definition default
+  xyzwh 939 43 2000 122 85
+end
+activitynodecanvas 132995 activitynode_ref 141571 // decision
+  xyz 990 206 2000
+end
+activityactioncanvas 133123 activityaction_ref 142083 // activity action Unos novog vremena za rezervaciju
+  
+  show_opaque_action_definition default
+  xyzwh 1110 288 2000 120 75
+end
+activitynodecanvas 134403 activitynode_ref 141955 // decision
+  xyz 1156 432 2000
+end
+activityactioncanvas 134659 activityaction_ref 142339 // activity action Cuvanje rezervacije
+  
+  show_opaque_action_definition default
+  xyzwh 1237 564 2000 100 60
+end
+activityactioncanvas 135043 activityaction_ref 142467 // activity action Prikaz poruke o nemogucnosti rezervacije
+  
+  show_opaque_action_definition default
+  xyzwh 980 542 2000 114 90
+end
+activitynodecanvas 135683 activitynode_ref 142083 // merge
+  xyz 1142 692 2000
+end
+activitynodecanvas 136451 activitynode_ref 142211 // activity_final
+  xyz 1146 967 2000
+end
+activitynodecanvas 137347 activitynode_ref 142467 // decision
+  xyz 252 1007 2000
+end
+fragment 138243 "Menadzer"
+  xyzwh 20 2 2000 612 1193
+end
+fragment 138371 "Korisnik"
+  xyzwh 634 3 2000 734 1193
+end
+flowcanvas 128259 flow_ref 134531 // <flow>
+  
+  from ref 128003 z 2001 to ref 128131
+   write_horizontally default
+end
+flowcanvas 128771 flow_ref 134787 // <flow>
+  decenter_begin 564
+  
+  from ref 128387 z 2001 stereotype "<<Postoje slobodni stolovi>>" xyz 143 312 3000 to point 146 331
+  line 128899 z 2001 to ref 128643
+   write_horizontally default
+end
+flowcanvas 129155 flow_ref 134915 // <flow>
+  decenter_end 238
+  
+  from ref 128387 z 2001 stereotype "<<Ne postoje slobodni stolovi>>" xyz 359 310 3000 to point 522 327
+  line 129283 z 2001 to ref 129027
+   write_horizontally default
+end
+flowcanvas 129539 flow_ref 135043 // <flow>
+  
+  from ref 128643 z 2001 to ref 129411
+   write_horizontally default
+end
+flowcanvas 129795 flow_ref 135171 // <flow>
+  decenter_begin 513
+  
+  from ref 129411 z 2001 to ref 129667
+   write_horizontally default
+end
+flowcanvas 130179 flow_ref 135427 // <flow>
+  
+  from ref 129923 z 2001 to ref 128387
+   write_horizontally default
+end
+flowcanvas 130435 flow_ref 135555 // <flow>
+  
+  from ref 129667 z 2001 to ref 130307
+   write_horizontally default
+end
+flowcanvas 130691 flow_ref 135683 // <flow>
+  
+  from ref 130307 z 2001 to ref 130563
+   write_horizontally default
+end
+flowcanvas 131331 flow_ref 135939 // <flow>
+  
+  from ref 128131 z 2006 to ref 131203
+   write_horizontally default
+end
+flowcanvas 131459 flow_ref 136067 // <flow>
+  
+  from ref 131203 z 2006 to ref 129923
+   write_horizontally default
+end
+flowcanvas 132611 flow_ref 136451 // <flow>
+  
+  from ref 129027 z 2001 to point 850 434
+  line 136963 z 2001 to point 849 439
+  line 132739 z 2001 to point 847 82
+  line 132867 z 2001 to ref 132483
+   write_horizontally default
+end
+flowcanvas 133251 flow_ref 142979 // <flow>
+  
+  from ref 132995 z 2001 stereotype "<<Zeli novu rezervaciju>>" xyz 1018 199 3000 to point 1165 221
+  line 133379 z 2001 to ref 133123
+   write_horizontally default
+end
+flowcanvas 133507 flow_ref 143107 // <flow>
+  
+  from ref 132483 z 2001 to ref 132995
+   write_horizontally default
+end
+flowcanvas 134531 flow_ref 143491 // <flow>
+  
+  from ref 133123 z 2001 to ref 134403
+   write_horizontally default
+end
+flowcanvas 135171 flow_ref 143747 // <flow>
+  
+  from ref 134403 z 2001 stereotype "<<else>>" xyz 1050 431 3000 to point 1031 448
+  line 135427 z 2001 to ref 135043
+   write_horizontally default
+end
+flowcanvas 135299 flow_ref 143875 // <flow>
+  
+  from ref 134403 z 2001 stereotype "<<Ima slobodnih stolova>>" xyz 1179 429 3000 to point 1284 451
+  line 135555 z 2001 to ref 134659
+   write_horizontally default
+end
+flowcanvas 135811 flow_ref 144003 // <flow>
+  
+  from ref 135043 z 2001 to ref 135683
+   write_horizontally default
+end
+flowcanvas 135939 flow_ref 144131 // <flow>
+  
+  from ref 134659 z 2001 to ref 135683
+   write_horizontally default
+end
+flowcanvas 136067 flow_ref 144259 // <flow>
+  decenter_begin 360
+  
+  from ref 132995 z 2001 stereotype "<<else>>" xyz 923 195 3000 to point 929 216
+  line 136323 z 2001 to point 923 709
+  line 136195 z 2001 to ref 135683
+   write_horizontally default
+end
+flowcanvas 136579 flow_ref 144387 // <flow>
+  
+  from ref 135683 z 2001 to ref 136451
+   write_horizontally default
+end
+flowcanvas 137475 flow_ref 144643 // <flow>
+  decenter_end 439
+  
+  from ref 130563 z 2001 to ref 137347
+   write_horizontally default
+end
+flowcanvas 137603 flow_ref 144771 // <flow>
+  
+  from ref 137347 z 2001 stereotype "<<else>>" xyz 285 1025 3000 to point 348 1023
+  line 137731 z 2001 to ref 131971
+   write_horizontally default
+end
+flowcanvas 137859 flow_ref 144899 // <flow>
+  
+  from ref 137347 z 2006 stereotype "<<postoji jos zahteva za rezervaciju>>" xyz 20 1026 3000 to point 34 1026
+  line 138115 z 2006 to point 28 141
+  line 137987 z 2006 to ref 131203
+   write_horizontally default
+end
+end

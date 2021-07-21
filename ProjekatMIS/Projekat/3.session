@@ -1,0 +1,33 @@
+window_sizes 1920 1001 397 1517 947 0
+
+diagrams
+  usecasediagram_ref 128131 // dijagram
+    1749 947 93 A2 393 0
+  activitydiagram_ref 134659 // dijagram
+    1517 947 100 A2 0 0
+  active  classdiagram_ref 141187 // dijagramm
+    1517 947 110 A2 0 0
+end
+show_stereotypes
+selected attribute_ref 152963 // gazirano
+open
+  usecaseview_ref 128131 // UseCaseDijagram
+  activity_ref 128003 // Dijagram1
+  class_ref 141827 // Vlasnik
+  class_ref 141955 // Menadzer
+  class_ref 142083 // Zaposleni
+  class_ref 142211 // Konobar
+  class_ref 142339 // KuhinjskoOsoblje
+  class_ref 142467 // Dostavljac
+  class_ref 142595 // Meni
+  class_ref 142723 // Narudzbina
+  class_ref 142851 // Racun
+  class_ref 142979 // Stavka
+  class_ref 143107 // Posetilac
+  class_ref 143235 // Hrana
+  class_ref 143363 // Pice
+  class_ref 143491 // Komentar
+  class_ref 143619 // Restoran
+  class_ref 150147 // Popust
+end
+end
