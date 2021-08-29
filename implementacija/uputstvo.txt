@@ -1,0 +1,7 @@
+prebaci ovaj folder u C:\wamp64\www 
+pokreni wamp server
+u browseru ukucaj http://localhost/mis/index.php
+
+Baza je na http://localhost/phpmyadmin/ 
+username: root
+sifra: root
